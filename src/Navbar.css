@@ -1,0 +1,17 @@
+.navbar ul{
+  display:flex;
+  /* background-color: red; */
+  text-decoration: none;
+  /* justify-content: space-around; */
+  flex-direction: row;
+  
+}
+.navbar ul li{
+  list-style-type: none;
+  padding: 10px;
+}
+
+li:hover{
+  color: rgb(0, 183, 255);
+  transition: 1s;
+}
