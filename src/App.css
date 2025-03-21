@@ -25,3 +25,8 @@
         margin-top: 20px;
     }
 }
+@media (max-width:768px){
+    .chalo2{
+        margin-top: 100px;
+    }
+}

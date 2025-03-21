@@ -68,9 +68,15 @@ button:hover{
         align-items: center;
         text-align: center;
     }
+    .center .chalo{
+        margin-top: 200px;
+    }
     form{
         margin-top: 20px;
         margin-bottom: 100px;
+    }
+    .details{
+        padding-top: 70px;
     }
     
 }

@@ -6,6 +6,7 @@ export default function Forms() {
     <>
         <div className="center">
             <motion.h1
+            className='chalo'
             initial={{
                 opacity:0
               }}
