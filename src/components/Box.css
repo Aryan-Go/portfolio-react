@@ -1,0 +1,40 @@
+.myInfo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around; 
+    align-items: center;  
+    padding: 10px;
+    margin: 50px;
+    border-radius: 10px;
+    /* background-color: rgb(3, 3, 125); */
+}
+.myInfo:hover{
+    box-shadow: 0px 4px 20px purple;
+    scale: 1.1;
+    transition: 1s;
+}
+h1{
+    color: aqua;
+    text-shadow: 0px 2px 20px white;
+    margin: 10px;
+}
+p{
+    color: gold;
+    margin: 10px;
+}
+.column{
+    display: flex;
+    flex-direction: column;
+}
+@media (max-width:600px){
+    .myInfo ul{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    .myInfo ul li{
+        padding-left: 0px;
+    }
+}

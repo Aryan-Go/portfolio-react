@@ -1,0 +1,13 @@
+body{
+    background-image: linear-gradient(to right , #000000 , rgb(2, 2, 104));
+}
+h1,h2{
+    color:aqua;
+    /* text-align: center; */
+    text-shadow: 0px 3px 20px white;
+}
+@media (max-width:768px){
+    body{
+        text-align: center;
+    }
+}
