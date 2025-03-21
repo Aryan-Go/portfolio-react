@@ -5,9 +5,9 @@ export default function Navbar() {
   return (
     <div className="navbar">
         <ul>
-            <li>Home</li>
-            <li>Contact</li>
-           <li>List of websites</li>
+            <a href='#title'><li>Home</li></a>
+            <a href='#lists'><li>List of websites</li></a>
+            <a href='#chalo2'><li>Contact</li></a>
         </ul>
     </div>
   )

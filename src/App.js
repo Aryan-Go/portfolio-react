@@ -12,7 +12,8 @@ import Forms from './components/Forms'
 
 function App() {
   return (
-      <div className="App">
+      <div className="App"
+        id='App'>
         <motion.h1 
         className='title'
         animate={{
@@ -57,6 +58,7 @@ function App() {
         <Box h1="Site selection in PAAC" p="Creating the PAAC site with all my knowledge and effort was an incredibly rewarding experience. I poured my heart into every line of code, using everything I had learned to bring the project to life. When I found out that out of hundreds of students, only 9 were selected—and I was one of them—it was an indescribable feeling. The recognition felt like a validation of all the hard work and dedication I had put into the project. It was a moment of immense pride and accomplishment, knowing that my skills had earned me a spot among such a small, elite group. That feeling of being chosen for something I worked so hard on was truly amazing and has motivated me to keep pushing forward in my journey as a developer."
         height="250px" width="250px" src="https://aryan-go.github.io/portfolio/Screenshot%202025-03-20%20at%2011.16.49%E2%80%AFAM.png" a="https://github.com/Aryan-Go/paac-web"/>
         <motion.h1
+        id='lists'
         animate={{
           x:['-100%',"100%"],
           // scale:[0,1]
@@ -77,6 +79,7 @@ function App() {
         height="200px" width="200px" src="https://aryan-go.github.io/portfolio/Screenshot%202025-03-20%20at%203.38.07%E2%80%AFPM.png" a="https://github.com/Aryan-Go/trip_blockchain" src2=""/>
         <motion.h1
         className='chalo2'
+        id='chalo2'
         animate={{
           x:['-100%',"100%"],
           // scale:[0,1]
