@@ -1,10 +1,10 @@
-import logo from './logo.svg';
-import react from 'react';
+// import logo from './logo.svg';
+// import react from 'react';
 import './images/IMG_1565.png'
 import { motion } from "motion/react"
 import './App.css'
 // import Navbar from './components/Navbar';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+// import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 // import Index from '../public/index.html';
 import Navbar from './components/Navbar';
 import Box from './components/Box';

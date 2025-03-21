@@ -1,10 +1,10 @@
 import React from 'react'
 import './Box.css'
-import { motion ,useScroll} from "motion/react"
+import { motion} from "motion/react"
 
 
 export default function Box(props) {
-  const scrollProg = useScroll().scrollYProgress
+  // const scrollProg = useScroll().scrollYProgress
   return (
     <div className='myInfo'>
       <a href={props.a} target="_blank" rel="noopener noreferrer"><motion.img height={props.height} width={props.width} src={props.src} 
