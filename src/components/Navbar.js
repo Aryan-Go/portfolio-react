@@ -1,14 +1,24 @@
 import React from 'react'
 import "../Navbar.css"
-
 export default function Navbar() {
   return (
-    <div className="navbar">
-        <ul>
-            <a href='#title'><li>Home</li></a>
-            <a href='#lists'><li>List of websites</li></a>
-            <a href='#chalo2'><li>Contact</li></a>
-        </ul>
-    </div>
+    <>
+      <nav>
+        <div className="hamburger-lay">
+          <input type="checkbox" id="menu-toggle" className="menu-toggle" />
+          <label htmlFor="menu-toggle" className="hamburger">
+            <div className="bar"></div>
+            <div className="bar"></div>
+            <div className="bar"></div>
+          </label>
+          <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="#lists">Projects</a></li>
+            <li><a href="#chalo2">Contact</a></li>
+          </ul>
+        </div>
+        <img className="flash" src="https://flash-app-gasper.sdslabs.org/images/flash.png" />
+      </nav>
+    </>
   )
 }

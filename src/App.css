@@ -16,6 +16,42 @@
     display: flex;
     flex-direction: row;
 }
+.github,
+.insta {
+  height: 4.5rem;
+  width: 4.5rem;
+  margin: 2rem;
+}
+.gmail {
+  height: 5rem;
+  width: 4.5rem;
+  margin: 2rem;
+}
+
+.linkedin {
+  height: 5rem;
+  width: 4rem;
+  margin: 2rem;
+}
+.details img {
+  box-shadow: none;
+}
+.details img:hover {
+  box-shadow: 0 0.125rem 1.25rem rgb(2, 154, 255);
+  transition: 0.5s;
+  border-radius: 50%;
+  padding: 0.5rem;
+}
+.details {
+  justify-content: center;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  border-top: 0.25rem solid #081456;
+  flex-direction: row;
+  background-color: #051353;
+}
 @media (max-width:600px){
     .title{
         font-size: 50px;
@@ -29,4 +65,11 @@
     .chalo2{
         margin-top:400px;
     }
+}
+@media (max-width: 37.5rem) {
+  .details {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
 }

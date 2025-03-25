@@ -1,82 +1,141 @@
-h1,h2{
-    color:gold;
-    /* text-align: center; */
-    text-shadow: 0px 3px 20px white;
-}
-form{
-    padding: 50px;
-    width: 300px;
-    text-align: center;
-    background-color: #0398dd;
-    border-radius: 20px;
-    box-shadow: 0px 2px 20px white;
-}
-label{
-    color:rgb(56, 225, 0);
-    /* text-align: center; */
-    text-shadow: 0px 3px 20px white;
-    font-size:30px;
-    margin: 10px;
-}
-input{
-    background-color:#0398dd;
-    padding: 10px;
-    color: rgb(192, 206, 194);
-    border-radius: 10px;
-    height: 50px;
-    box-shadow: 0px 2px 20px #01ff8d;
-    width: 90%;
-    margin: 10px;
-}
-input:hover{
-    box-shadow: 0px 2px 20px #01ff8d;
-    background-color: #0385c1;
-    scale: 1.05;
-    transition: 0.3s;
-}
-form:hover{
-    box-shadow: 0px 1px 20px rgb(113, 7, 234);
-    scale: 1.1;
-    transition: 1s;
+.center {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 100vh;
 }
 
-button{
-    background-color: #04f3eb;
-    color:rgb(7, 173, 54);
-    height: 30px;
-    width: 50%;
-    border-radius: 10px;
-    margin: 10px;
+form {
+    background-color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 5rem;
+  padding-top: 0;
+  width: 70%;
+  height: 70vh;
+  text-align: center;
+  border-radius: 2rem;
+  box-shadow: 1.063rem 0.938rem 3.125rem rgb(125 196 244);
 }
-button:hover{
-    background-color: #05d6cf;
-    scale: 1.1;
-    transition: 0.5s;
-    box-shadow: 0px 2px 20px rgb(2, 198, 2);
+
+input {
+  background-image: linear-gradient(to right , #000000 , rgb(2, 2, 104));
+  color: rgb(137, 138, 50);
+  padding: 2rem;
+  color: rgb(255, 255, 255);
+  border-radius: 2rem;
+  height: 3rem;
+  font-size: 1.25rem;
+  width: 90%;
+  margin: 1rem;
 }
-.center{
-    display: flex;;
-    justify-content: space-around;
+.tr{
+    margin-left: -1.5rem;
+  }
+
+button {
+  background-image: linear-gradient(to right , #242124 , #5A4FCF);
+  text-align: center;
+  font-size: 1.5rem;
+  color: rgb(137, 138, 50);
+  border: none;
+  color: rgb(6, 114, 131);
+  height: 4.5rem;
+  width: 20%;
+  border-radius: 2.5rem;
+  margin: 0.5rem;
+}
+.b {
+  height: 3rem;
+}
+button:hover {
+  background-image: linear-gradient(to right , #5A4FCF , #242124);
+  transition: 1s;
+}
+
+
+@media (max-width: 50.5rem) {
+  
+  
+  .center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
-    height: 100vh;
+    text-align: center;
+  }
+  form {
+    margin-top: 3rem;
+    margin-bottom: 4rem;
+  }
+  button {
+    width: 50%;
+  }
+  
 }
-@media (max-width:768px){
-    .center{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
-    }
-    .center .chalo{
-        margin-top: 200px;
-    }
-    form{
-        margin-top: 20px;
-        margin-bottom: 100px;
-    }
-    .details{
-        padding-top: 70px;
-    }
-    
+
+@media (max-width: 48rem) {
+  .tr{
+    margin-left: -1rem;
+  }
+  .center:hover .jee {
+    padding-right: 0;
+    scale: 1;
+  }
+  .center:hover .text {
+    width: 10rem;
+  }
+}
+@media (max-width: 37.5rem) {
+  form {
+    width: 65%;
+    height: 70vh;
+    transition: 1s;
+  }
+}
+.center:hover .jee {
+  left: 0;
+  transition: 1s;
+}
+
+.center:hover .text {
+  scale: 1;
+  transition: 1s;
+}
+
+.send {
+  height: 1.5rem;
+  width: 2rem;
+  align-self: center;
+}
+.contact {
+  padding-top: 0;
+  margin-top: 2vh;
+}
+
+@media (max-width: 31.25rem) {
+  .contact {
+    margin-top: 14vh;
+  }
+  input {
+    height: 1rem;
+  }
+
+  
+  button {
+    height: 9rem;
+    width: 8rem;
+  }
+  
+
+  form{
+    transition: 1s;
+    height: 60%;
+    width: 58%;
+  }
+}
+.send{
+  box-shadow: none;
 }
