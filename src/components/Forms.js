@@ -1,6 +1,5 @@
 import React from 'react'
 import './Forms.css'
-import { motion } from "motion/react"
 import ms from '../images/send.png'
 export default function Forms() {
   return (
@@ -19,7 +18,7 @@ export default function Forms() {
             <span>Send</span>
             <span>
               {" "}
-              <img className="send" src={ms} />
+              <img className="send" src={ms} alt=""/>
             </span>
           </button>
         </form>
