@@ -189,24 +189,24 @@ function App() {
       <Forms />
       <div className="details">
         <a href="https://github.com" target="_blank" rel="noopener noreferrer">
-          <img className="github" src={g} />
+          <img className="github" src={g} alt="" />
         </a>
         <a
           href="https://www.linkedin.com/in/aryan-goyal-81875b203/"
           target="_blank"
           rel="noopener noreferrer"
         >
-          <img className="linkedin" src={l} />
+          <img className="linkedin" src={l} alt="" />
         </a>
         <a
           href="https://www.instagram.com/aryangoyal313/"
           target="_blank"
           rel="noopener noreferrer"
         >
-          <img src={i} className="insta" />
+          <img src={i} className="insta" alt="" />
         </a>
         <a href="mailto:goyal.aryan@gmail.com">
-          <img className="gmail" src={m} />
+          <img className="gmail" src={m} alt="" />
         </a>
       </div>
     </div>
