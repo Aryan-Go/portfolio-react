@@ -4,37 +4,62 @@
     justify-content: space-around; 
     align-items: center;  
     padding: 10px;
-    margin: 50px;
-    border-radius: 10px;
+    margin: 70px;
+    box-shadow: -2px 12px 53px purple;
+    border-radius: 20px;
     /* background-color: rgb(3, 3, 125); */
 }
-.myInfo:hover{
-    box-shadow: 0px 4px 20px purple;
-    scale: 1.1;
-    transition: 1s;
+.myInfo img:hover{
+  box-shadow: 0.2rem 0.2rem 0.5rem rgb(144 202 241) ;
+  animation: blurtech;
+  animation-duration: 1s;
+  transition: 0.5s;
+}
+.myInfo img{
+    margin-right: 10px;
+    border-radius: 20px;
 }
 h1{
     color: aqua;
-    text-shadow: 0px 2px 20px white;
     margin: 10px;
 }
 p{
-    color: gold;
+    color: #aeaef9;
     margin: 10px;
 }
 .column{
     display: flex;
     flex-direction: column;
 }
-@media (max-width:600px){
-    .myInfo{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        text-align: center;
-    }
-    .myInfo li{
-        padding-left: 0px;
-    }
+
+@media (max-width: 61.875rem) {
+  .myInfo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem;
+  }
 }
+@media (max-width:50.5rem){
+    .myInfo p {
+    font-size: 0.938rem;
+    padding: 0;
+    margin: 1rem;
+  }
+  .myInfo {
+    padding: 0;
+  }
+  h1,
+  h2 {
+    font-size: 1.875rem;
+    animation: appear;
+    animation-duration: 2s;
+  }
+}
+@media (max-width: 37.5rem) {
+  .myInfo p {
+    font-size: 10px;
+  }
+}
+  

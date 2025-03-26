@@ -5,13 +5,13 @@ import ms from '../images/send.png'
 export default function Forms() {
   return (
     <>
-      <div class="center">
+      <div className="center">
         <form
           method="POST"
-          enctype="text/plain"
+          encType="text/plain"
           action="mailto:goyal.aryan@gmail.com"
         >
-          <h1 class="contact">Mail Me</h1>
+          <h1 className="contact">Mail Me</h1>
           <br />
           <input type="text" name="message" placeholder="message" />
           <br />
@@ -19,7 +19,7 @@ export default function Forms() {
             <span>Send</span>
             <span>
               {" "}
-              <img class="send" src={ms} />
+              <img className="send" src={ms} />
             </span>
           </button>
         </form>
