@@ -17,7 +17,7 @@ export default function Navbar() {
             <li><a href="#chalo2">Contact</a></li>
           </ul>
         </div>
-        <img className="flash" src="https://flash-app-gasper.sdslabs.org/images/flash.png" />
+        <img className="flash" src="https://flash-app-gasper.sdslabs.org/images/flash.png" alt=""/>
       </nav>
     </>
   )
