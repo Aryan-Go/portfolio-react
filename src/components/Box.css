@@ -16,7 +16,8 @@
   transition: 0.5s;
 }
 .myInfo img{
-    margin-right: 10px;
+    /* margin-left: 10px; */
+    /* padding-right: 20px; */
     border-radius: 20px;
 }
 h1{
@@ -33,6 +34,12 @@ p{
 }
 
 @media (max-width: 61.875rem) {
+  /* .image{
+    width: 50%;
+  }
+  .image img{
+    margin-right: 0;
+  } */
   .myInfo {
     display: flex;
     flex-direction: column;
@@ -49,6 +56,8 @@ p{
   }
   .myInfo {
     padding: 0;
+    justify-content: center;
+    align-items: center;
   }
   h1,
   h2 {
@@ -59,7 +68,24 @@ p{
 }
 @media (max-width: 37.5rem) {
   .myInfo p {
-    font-size: 10px;
+    font-size: 15px;
+  }
+  .myInfo img{
+    scale: 0.8;
+    margin-top:1.5rem;
+  }
+  .image a{
+    display: flex;
+    justify-content: center;
+  }
+  .image{
+    width: 30%;
   }
 }
+/* @media (max-width:420px){
+  /* .myInfo img{
+    scale: 0.6;
+    /* margin-top:1.5rem; */
+  /* } */ 
+/* } */ 
   

@@ -57,7 +57,11 @@ button:hover {
 
 
 @media (max-width: 50.5rem) {
-  
+  .contact {
+    /* margin-top: 14vh; */
+    padding-right: 46px;
+
+  }
   
   .center {
     display: flex;
@@ -89,6 +93,7 @@ button:hover {
   }
 }
 @media (max-width: 37.5rem) {
+    
   form {
     width: 65%;
     height: 70vh;
@@ -118,6 +123,8 @@ button:hover {
 @media (max-width: 31.25rem) {
   .contact {
     margin-top: 14vh;
+    padding-right: 46px;
+
   }
   input {
     height: 1rem;
@@ -125,15 +132,15 @@ button:hover {
 
   
   button {
-    height: 9rem;
+    height: 5rem;
     width: 8rem;
   }
   
 
   form{
     transition: 1s;
-    height: 60%;
-    width: 58%;
+    height: 50%;
+    width: 35%;
   }
 }
 .send{

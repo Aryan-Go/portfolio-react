@@ -26,18 +26,19 @@ function App() {
           }}
         >
           Welcome to Aryan's World
-          </motion.h1>
+        </motion.h1>
       </div>
       <Navbar />
       <Box
+        className="me"
         h1="Hello Everybody , Aryan Goyal this side , I live in Vasundhara Enclave , New Delhi"
         p="I'm a front-end developer passionate about creating
           user-friendly websites, with a love for music (guitar and keyboard)
           and sports, driving my creativity and growth in coding, music, and
           physical activity."
+        src="https://flash-app-gasper.sdslabs.org/images/me.png"
         height="400px"
         width="300px"
-        src="https://flash-app-gasper.sdslabs.org/images/me.png"
       />
       <div className="zyada">
         <motion.h1
@@ -55,25 +56,25 @@ function App() {
         </motion.h1>
       </div>
       <Box
+        className="tl"
         h1="Tinkering Labs"
         p="As a software developer at Tinkering Labs, I work on
               exciting projects involving drones, motion sensors, and AR/VR
               technologies, expanding my skills in both traditional and
               immersive tech."
-        height="200px"
-        width="200px"
         src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRSsVby6sXkx6osxGmhbrybfX5gC9uuWKwecQ&s"
         a="https://tinkeringlab.iitr.ac.in"
       />
       <Box
+        className="sds"
         h1="SDSLabs"
         p="I joined as a full-stack web developer at SDSLabs in February
               2025, working on diverse projects to master front-end and back-end
               development and create impactful, meaningful solutions."
-        height="100px"
-        width="200px"
         src="https://pbs.twimg.com/ext_tw_video_thumb/1317467996869128192/pu/img/qEJBxmjWRRzKVDmH?format=jpg&name=large"
         a="https://sdslabs.co"
+        height="100px"
+        width="250px"
       />
       <div className="zyada">
         <motion.h1
@@ -91,23 +92,25 @@ function App() {
         </motion.h1>
       </div>
       <Box
+        className="mira"
         h1="My 1st hackthon win"
         p="Winning my first hackathon</b> The MIRA Hackathon, fueled my
               passion for innovation and motivated me to keep pushing forward in
               tech through teamwork, problem-solving, and tight deadlines."
-        height="200px"
-        width="150px"
         src="https://flash-app-gasper.sdslabs.org/images/mira.png"
+        height="250px"
+        width="250px"
         a="https://www.instagram.com/p/DFWos78SyzC/?img_index=3"
       />
       <Box
+        className="paac"
         h1="Site selection in PAAC"
         p="Creating the PAAC site and being one of only 9 students selected out of hundreds validated my hard work and motivated me to continue growing as a
           developer."
-        height="250px"
-        width="250px"
         src="https://flash-app-gasper.sdslabs.org/images/paac.png"
         a="https://github.com/Aryan-Go/paac-web"
+        height="300px"
+        width="300px"
       />
       <div className="zyada">
         <motion.h1
@@ -126,15 +129,17 @@ function App() {
         </motion.h1>
       </div>
       <Box
+        className="mirify"
         h1="Mirify website"
         p="Winning the Miraculous Hackathon with an AI-powered music generation tool was the perfect culmination of technical skills, creativity, and
           teamwork under tight deadlines."
-        height="200px"
-        width="350px"
         a="https://github.com/Aryan-Go/minify-project-MAIN-TEAM-AICOD-"
         src="https://flash-app-gasper.sdslabs.org/images/mirify.png"
+        height="300px"
+        width="350px"
       />
       <Box
+        className="jee"
         h1="JEE Buddy"
         p=" My first hackathon project, JEE BUDY, helped
           students prepare for the JEE exams, and winning it motivated me to continue improving as a developer."
@@ -142,6 +147,7 @@ function App() {
         src="https://www.myexambuddy.com/images/logo-login.png"
       />
       <Box
+        className="torque"
         h1="Jee and Jarvis"
         p="I created a JEE site with AI-powered assistant JARVIS,
           and winning with this innovative integration fueled my passion for
@@ -152,6 +158,7 @@ function App() {
         src="https://flash-app-gasper.sdslabs.org/images/torque.png"
       />
       <Box
+        className="mirify"
         h1="MERA SAFAR"
         p="I explored blockchain technology by creating
           a decentralized auction platform to help

@@ -7,18 +7,21 @@ export default function Box(props) {
   // const scrollProg = useScroll().scrollYProgress
   return (
     <div className='myInfo'>
-      <a href={props.a} target="_blank" rel="noopener noreferrer"><motion.img height={props.height} width={props.width} src={props.src} 
-      initial={{
-        opacity:0
-      }}
-      whileInView={{
-        opacity:1
-      }}
-      transition={{
-        duration:1
-      }}
-      viewport={{
-        margin:"-50px"}}/></a>
+      <div className="image">
+        <a href={props.a} target="_blank" rel="noopener noreferrer"><motion.img height={props.height} width={props.width} src={props.src} 
+        initial={{
+          opacity:0
+        }}
+        whileInView={{
+          opacity:1
+        }}
+        transition={{
+          duration:1
+        }}
+        viewport={{
+              margin: "-50px"
+            }} /></a>
+      </div>
       <div className='column'>
         <motion.h1
         initial={{

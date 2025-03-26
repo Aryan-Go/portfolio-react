@@ -62,16 +62,92 @@
   flex-direction: row;
   background-color: #051353;
 }
-@media (max-width:600px){
+.sds{
+    height: 100px;
+    width: 200px;
+    transition: 1s;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+  .mira{
+    height: 200px;
+    width: 150px;
+    transition: 1s;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+  .me{
+    height: 400px;
+    width: 300px;
+    transition: 1s;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+  .tl{
+    height: 200px;
+    width: 200px;
+    transition: 1s;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+  .mirify,
+  .jee,
+  .mera-safar{
+    height: 4em;
+    width: 15rem;
+    transition: 1s;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+  .torque{
+    height: 200px;
+    width: 400px;
+    transition: 1s;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+  .mirify{
+    height: 200px;
+    width: 350px;
+    transition: 1s;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+  .paac{
+    height: 250px;
+    width: 250px;
+    transition: 1s;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+  li {
+    padding-left: 0;
+  }
+@media (max-width:900px){
     .title{
-        font-size: 50px;
-    }
-    .details{
-        flex-direction: column;
-        margin-top: 100px;
+        transition: 1s;
+        font-size: 40px;
     }
 }
-@media (max-width:768px){
+
+@media (max-width:50.5rem){
+  h1,
+  h2 {
+    font-size: 1.875rem;
+    animation: appear;
+    animation-duration: 2s;
+  }
+}
+@media (max-width: 37.5rem) {
+    .github,
+    .linkedin,
+    .insta,
+    .gmail {
+        height: 2.25rem;
+        width: 2.25rem;
+        margin: 1rem;
+        transition: 1s;
+    }
     .chalo2{
         margin-top:400px;
     }
@@ -84,44 +160,14 @@
         width: 80%;
         padding-left: 40px;
     }
-}
-@media (max-width: 37.5rem) {
-  .details {
-    width: 100%;
-    margin: 0;
-    padding: 0;
-  }
-}
-
-@media (max-width:50.5rem){
-  h1,
-  h2 {
-    font-size: 1.875rem;
-    animation: appear;
-    animation-duration: 2s;
-  }
-}
-@media (max-width: 37.5rem) {
-  .details {
-    width: 100%;
-    margin: 0;
-    padding: 0;
-  }
-  .sds {
+  .sds{
     height: 4em;
     width: 20rem;
     transition: 1s;
     margin-top: 1rem;
     margin-bottom: 1rem;
   }
-  .mira {
-    height: 10em;
-    width: 12rem;
-    transition: 1s;
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-  }
-  .me {
+  .me{
     height: 20rem;
     width: 15rem;
     transition: 1s;
@@ -132,7 +178,7 @@
   .jee,
   .mera-safar,
   .torque,
-  .paac {
+  .paac{
     height: 4em;
     width: 15rem;
     transition: 1s;
@@ -144,7 +190,7 @@
   }
 }
 @media (max-width: 31.25rem) {
-  .sds {
+  .sds{
     height: 4em;
     width: 14rem;
     transition: 1s;
@@ -154,19 +200,13 @@
   body {
     font-size: 1.5rem;
   }
-  .github,
-  .linkedin,
-  .insta,
-  .gmail {
-    height: 2.25rem;
-    width: 2.25rem;
-    margin: 1rem;
-  }
-  .flash {
-    width: 5rem;
-  }
   li {
+    transition: 1s;
     font-size: 0.9rem;
     transition: 1s;
   }
+  .title{
+        transition: 1s;
+        font-size: 30px;
+    }
 }
